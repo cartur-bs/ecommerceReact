@@ -1,0 +1,56 @@
+.imgProdutoDiv {
+  width: 23.5rem;
+  height: 20rem;
+  background-image: url("../../public/image-product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.descricaoProdutoDiv{
+  padding: 1rem;
+}
+
+.descricaoProdutoDiv h5{
+  color:#d86b28;
+}
+
+.infoPreco {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -2rem;
+}
+
+.desconto {
+  display: flex;
+  align-items: center;
+  background-color: #d86b28;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+  opacity: 0.8;
+  margin-right: -6rem;
+  font-style: italic;
+}
+
+.precoAntigo {
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.selecionarQuantidadeDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.selecionarQuantidadeDiv button {
+  width: 8rem;
+  background-color: #fff;
+  border: 1px solid #d86b28;
+}
+
+.adicionarAoCarrinho{
+  margin: 2rem 5rem;
+  background-color: #d86b28;
+}

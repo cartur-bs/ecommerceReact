@@ -1,0 +1,26 @@
+.headerDiv {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  width: 23.5rem;
+}
+
+.menuDiv,
+.acessoAoPerfilDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuDiv{
+    width: 11rem;
+}
+
+.acessoAoPerfilDiv {
+  width: 5rem;
+  height: 4rem;
+}
+
+.avatarImg {
+  width: 3rem;
+}
